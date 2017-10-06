@@ -101,7 +101,7 @@ class functions
        //string breaking into array
     public function separator($date)
      {
-      echo "<h3><u> Breaking string in $date into an array using separator parameter as / </h3></u>";  
+      echo "<h3><u> Breaking string  $date into an array using separator parameter as / and using space instead of / </h3></u>";  
       $array=(explode("/",($date)));
       $a=count($array);
       for($i=0;$i<$a;$i++)
